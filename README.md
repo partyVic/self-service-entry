@@ -1,4 +1,4 @@
-# Self Service Entry - a working day ON/OFF swap platform
+# Self Service Entry - An employee shifts swap platform
 
 > Built with the MERN stack & Redux
 
