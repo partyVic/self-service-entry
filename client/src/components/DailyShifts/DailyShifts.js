@@ -71,6 +71,12 @@ const DailyShifts = ({ dateStr }) => {
                                 <span className="Shifts-info-time">{shift.startTime} - {shift.endTime}</span>
                                 <span className="Shifts-info-position">{shift.position}</span>
                                 <span className="Shifts-info-creator">{shift.creator}</span>
+                                {shift.message.length > 0
+                                        ?
+                                        <div className="Shifts-offerMessage">
+                                            <p>{shift.message}</p>
+                                        </div>
+                                        : ""}
                             </div>
                         </button>
                     ))}

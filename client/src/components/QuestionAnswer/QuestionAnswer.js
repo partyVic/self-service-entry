@@ -72,7 +72,7 @@ const QuestionAnswer = () => {
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography>
-                                SSE is hosted by Netlify &amp; Heroku (free). May move to a paid host for better user experiences if needed.
+                                SSE is hosted by Netlify, Heroku &amp; MongoDB Atlas (free). May move to paid hosts for better user experiences if needed.
                             </Typography>
                         </AccordionDetails>
                     </Accordion>

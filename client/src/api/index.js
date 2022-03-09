@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'http://localhost:5000/shifts'
+const url = 'https://self-service-entry.herokuapp.com/shifts'
 
 export const fetchShifts = () => axios.get(url)
 export const createShift = (newShift) => axios.post(url, newShift)
